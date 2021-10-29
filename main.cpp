@@ -225,6 +225,7 @@ int main()
                 arbolExprs.prefijoAArbol(expr.getPrefijo());
                 arbolCreado = true;
                 system("clear");
+                cout << "Arbol creado\n" << endl;
                 break;
 
             case 8:
@@ -236,6 +237,7 @@ int main()
                 arbolExprs.sufijoAArbol(expr.getSufijo());
                 arbolCreado = true;
                 system("clear");
+                cout << "Arbol creado\n" << endl;
                 break;
 
             case 9:
